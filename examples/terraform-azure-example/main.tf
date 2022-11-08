@@ -166,7 +166,7 @@ resource "azurerm_linux_virtual_machine" "linuxvm" {
 
 resource "azurerm_storage_account" "aju-storageaccount" {
   #count                    = 2
-  name                     = "storageaccountaju1234"
+  name                     = "storageaccountaju123478"
   resource_group_name      = local.resource_group_name
   location                 = local.location
   account_tier             = "Standard"
